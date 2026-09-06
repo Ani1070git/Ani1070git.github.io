@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aniruddha S P | Data & AI Engineer</title>
   <meta name="description" content="Portfolio of Aniruddha S P - Data & AI Engineer specializing in ETL pipelines, RAG systems, and autonomous LLM agents." />
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>
     tailwind.config = {
@@ -29,7 +31,6 @@
     }
   </script>
   <style>
-    /* Custom subtle glow */
     .glow-hover:hover {
       box-shadow: 0 0 25px -5px rgba(59, 130, 246, 0.25);
     }
@@ -37,6 +38,7 @@
 </head>
 <body class="bg-bgDark text-gray-200 font-sans antialiased selection:bg-blue-500 selection:text-white">
 
+  <!-- Navbar -->
   <nav class="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-bgDark/80 border-b border-borderDark">
     <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
       <a href="#" class="font-mono font-bold text-lg text-white hover:text-blue-400 transition-colors">
@@ -44,18 +46,20 @@
       </a>
       <div class="flex items-center space-x-6 text-sm font-medium text-gray-300">
         <a href="#about" class="hover:text-blue-400 transition-colors">About</a>
+        <a href="#education" class="hover:text-blue-400 transition-colors">Education</a>
         <a href="#skills" class="hover:text-blue-400 transition-colors">Skills</a>
-        <a href="#projects" class="hover:text-blue-400 transition-colors">Projects</a>
         <a href="#experience" class="hover:text-blue-400 transition-colors">Experience</a>
+        <a href="#projects" class="hover:text-blue-400 transition-colors">Projects</a>
         <a href="#contact" class="px-3.5 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white transition-all text-xs font-mono">
-          Get in Touch
+          Contact
         </a>
       </div>
     </div>
   </nav>
 
-  <main class="max-w-5xl mx-auto px-6 pt-32 pb-20 space-y-28">
+  <main class="max-w-5xl mx-auto px-6 pt-32 pb-20 space-y-24">
 
+    <!-- Hero Section -->
     <section id="about" class="space-y-6">
       <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 font-mono text-xs">
         <span class="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
@@ -64,23 +68,72 @@
       <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">
         Hi, I'm <span class="bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-400 bg-clip-text text-transparent">Aniruddha S P</span>.
       </h1>
-      <p class="text-lg text-gray-400 max-w-2xl leading-relaxed">
-        Data & AI Engineer with 1 year of production experience building and validating enterprise SQL/ETL pipelines in regulated healthcare environments, complemented by full-stack AI engineering, RAG pipelines, and autonomous agent loops.
+      <p class="text-base sm:text-lg text-gray-300 max-w-2xl leading-relaxed">
+        Data & AI Engineer with hands-on production experience building, validating, and scaling SQL/ETL pipelines in regulated healthcare environments[cite: 1, 2]. I bridge enterprise data infrastructure with modern generative AI—engineering end-to-end RAG systems[cite: 1, 2], autonomous agent decision loops, and high-throughput FastAPI services[cite: 1, 2]. Focused on data reliability, low-latency LLM inference, and automated CI/CD workflows[cite: 1, 2].
       </p>
 
       <div class="flex flex-wrap items-center gap-4 pt-2">
-        <a href="https://github.com/Ani1070git" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cardDark border border-borderDark hover:border-gray-600 hover:text-white transition-all text-sm font-medium">
-          <i data-lucide="github" class="w-4 h-4"></i> GitHub
+        <!-- GitHub Button (Crisp White Inline SVG) -->
+        <a href="https://github.com/Ani1070git" target="_blank" class="group inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cardDark border border-borderDark hover:border-blue-500 text-white hover:text-blue-400 transition-all text-sm font-medium">
+          <svg class="w-4 h-4 fill-current text-white group-hover:text-blue-400 transition-colors" viewBox="0 0 24 24">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          GitHub
         </a>
-        <a href="https://linkedin.com/in/aniruddha-s-p" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cardDark border border-borderDark hover:border-blue-500 hover:text-blue-400 transition-all text-sm font-medium">
-          <i data-lucide="linkedin" class="w-4 h-4"></i> LinkedIn
+
+        <!-- LinkedIn Button (Crisp White Inline SVG) -->
+        <a href="https://linkedin.com/in/aniruddha-s-p" target="_blank" class="group inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cardDark border border-borderDark hover:border-blue-500 text-white hover:text-blue-400 transition-all text-sm font-medium">
+          <svg class="w-4 h-4 fill-current text-white group-hover:text-blue-400 transition-colors" viewBox="0 0 24 24">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+          LinkedIn
         </a>
-        <a href="mailto:spaniruddha@gmail.com" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cardDark border border-borderDark hover:border-emerald-500 hover:text-emerald-400 transition-all text-sm font-medium">
-          <i data-lucide="mail" class="w-4 h-4"></i> spaniruddha@gmail.com
+
+        <!-- Email Button -->
+        <a href="mailto:spaniruddha@gmail.com" class="group inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cardDark border border-borderDark hover:border-emerald-500 text-white hover:text-emerald-400 transition-all text-sm font-medium">
+          <i data-lucide="mail" class="w-4 h-4 text-white group-hover:text-emerald-400 transition-colors"></i> spaniruddha@gmail.com
         </a>
       </div>
     </section>
 
+    <!-- Education & Certifications -->
+    <section id="education" class="space-y-6">
+      <div class="flex items-center gap-3">
+        <h2 class="text-2xl font-bold text-white tracking-tight">Education & Certifications</h2>
+        <div class="h-[1px] flex-1 bg-borderDark"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="p-6 rounded-xl bg-cardDark border border-borderDark space-y-3">
+          <div class="flex items-center gap-2 text-white font-bold text-base">
+            <i data-lucide="graduation-cap" class="w-5 h-5 text-blue-400"></i> Education
+          </div>
+          <div>
+            <div class="font-medium text-white text-sm">Bachelor of Engineering (B.E.) in AI & Machine Learning</div>
+            <div class="text-gray-400 text-xs mt-1">Dayananda Sagar Academy of Technology and Management, Bengaluru</div>
+            <div class="text-blue-400 font-mono text-xs mt-1">2021 – 2025 • CGPA: 8.6/10</div>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-cardDark border border-borderDark space-y-3">
+          <div class="flex items-center gap-2 text-white font-bold text-base">
+            <i data-lucide="award" class="w-5 h-5 text-purple-400"></i> Certifications
+          </div>
+          <ul class="text-xs space-y-2.5 text-gray-300 font-mono">
+            <li class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 rounded-full bg-purple-400"></span>
+              Databricks Fundamentals (Databricks, Mar 2026)
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 rounded-full bg-purple-400"></span>
+              Career Essentials in Generative AI (Microsoft & LinkedIn)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
     <section id="skills" class="space-y-6">
       <div class="flex items-center gap-3">
         <h2 class="text-2xl font-bold text-white tracking-tight">Technical Stack</h2>
@@ -93,7 +146,7 @@
             <i data-lucide="database" class="w-4 h-4"></i> Data Engineering & Storage
           </div>
           <p class="text-gray-300 font-sans text-sm">
-            SQL (PostgreSQL, MySQL), Informatica IICS, ETL Workflows, Schema Mapping, Multi-format Parsing (CSV, DAT, JSON, SAS, Parquet), Query Optimization.
+            SQL (PostgreSQL, MySQL), Informatica IICS, ETL Workflows, Schema Mapping, Multi-format Parsing (CSV, DAT, JSON, SAS, Parquet), Query Optimization[cite: 1, 2].
           </p>
         </div>
 
@@ -102,7 +155,7 @@
             <i data-lucide="bot" class="w-4 h-4"></i> AI & LLM Systems
           </div>
           <p class="text-gray-300 font-sans text-sm">
-            LangChain, ChromaDB, HuggingFace Embeddings, Groq API, LLaMA, Semantic Search, ReAct Loops, Native Tool/Function Calling.
+            LangChain, ChromaDB, HuggingFace Embeddings, Groq API, LLaMA, Semantic Search, ReAct Loops, Native Tool/Function Calling[cite: 1, 2].
           </p>
         </div>
 
@@ -111,7 +164,7 @@
             <i data-lucide="code" class="w-4 h-4"></i> Backend & Frontend
           </div>
           <p class="text-gray-300 font-sans text-sm">
-            Python (AsyncIO, OOP), FastAPI, React, RESTful APIs, SQLAlchemy ORM, Pydantic, Uvicorn, Dependency Injection.
+            Python (AsyncIO, OOP), FastAPI, React, RESTful APIs, SQLAlchemy ORM, Pydantic, Uvicorn, Dependency Injection[cite: 1, 2].
           </p>
         </div>
 
@@ -120,12 +173,39 @@
             <i data-lucide="terminal" class="w-4 h-4"></i> DevOps & Tools
           </div>
           <p class="text-gray-300 font-sans text-sm">
-            Docker, Docker Compose, GitHub Actions CI/CD, Pytest (Unit & Integration), Git, Linux/Bash.
+            Docker, Docker Compose, GitHub Actions CI/CD, Pytest (Unit & Integration), Git, Linux/Bash[cite: 1, 2].
           </p>
         </div>
       </div>
     </section>
 
+    <!-- Professional Experience Section -->
+    <section id="experience" class="space-y-6">
+      <div class="flex items-center gap-3">
+        <h2 class="text-2xl font-bold text-white tracking-tight">Work Experience</h2>
+        <div class="h-[1px] flex-1 bg-borderDark"></div>
+      </div>
+
+      <div class="border-l-2 border-borderDark pl-6 ml-3 space-y-6">
+        <div class="relative group">
+          <div class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-blue-500 ring-4 ring-bgDark"></div>
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between text-sm">
+            <div class="font-bold text-white text-base">Data Programmer</div>
+            <div class="text-gray-400 font-mono text-xs">Aug 2025 – Present[cite: 1, 2]</div>
+          </div>
+          <div class="text-blue-400 text-sm font-medium mb-2">Labcorp • Bengaluru, India[cite: 1, 2]</div>
+          <ul class="text-sm text-gray-300 space-y-2.5 list-disc pl-4 leading-relaxed">
+            <li>Engineered, scheduled, and optimized 100+ production ETL packages using SQL and Informatica IICS to ingest and harmonize clinical trial datasets scaling up to 1.5M+ records[cite: 1, 2].</li>
+            <li>Authored multi-table SQL queries, automated boundary condition checks, and designed relational schema transformations across regulated healthcare environments to guarantee data consistency[cite: 1, 2].</li>
+            <li>Troubleshot and debugged pipeline anomalies, upstream format discrepancies (CSV, DAT, JSON, SAS), and ingestion failures, cutting downstream processing errors and manual operational interventions by ~30%[cite: 1, 2].</li>
+            <li>Collaborated across cross-functional engineering pods (100+ personnel), translating business reporting requirements into production-ready data pipelines that passed rigorous senior peer reviews and clinical audits[cite: 1, 2].</li>
+            <li>Implemented data quality assertions and discrepancy trackers across staging and target layers, safeguarding data integrity for critical downstream reporting systems[cite: 1, 2].</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
     <section id="projects" class="space-y-8">
       <div class="flex items-center gap-3">
         <h2 class="text-2xl font-bold text-white tracking-tight">Featured Projects</h2>
@@ -134,6 +214,7 @@
 
       <div class="space-y-6">
 
+        <!-- Project 1: RAG Pipeline -->
         <div class="p-6 rounded-xl bg-cardDark border border-borderDark hover:border-blue-500/50 transition-all glow-hover space-y-4">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <h3 class="text-xl font-bold text-white">RAG PDF Q&A System</h3>
@@ -148,11 +229,11 @@
             </div>
           </div>
           <p class="text-gray-300 text-sm leading-relaxed">
-            Full-stack Retrieval-Augmented Generation (RAG) platform processing multi-hundred-page documents (475+ pages). Integrates LangChain chunking, HuggingFace embeddings, and ChromaDB vector persistence with low-latency LLM answering via Groq LLaMA.
+            Full-stack Retrieval-Augmented Generation (RAG) platform processing multi-hundred-page documents (475+ pages)[cite: 2]. Integrates LangChain chunking, HuggingFace embeddings, and ChromaDB vector persistence with low-latency LLM answering via Groq LLaMA[cite: 2].
           </p>
           <ul class="text-xs text-gray-400 space-y-1.5 list-disc pl-5">
-            <li>Eliminated per-request latency overhead by preloading embedding models into memory during FastAPI server startup.</li>
-            <li>Built an interactive React frontend featuring drag-and-drop document upload, streaming Q&A, and citation/context inspection.</li>
+            <li>Eliminated per-request latency overhead by preloading embedding models into memory during FastAPI server startup[cite: 2].</li>
+            <li>Built an interactive React frontend featuring drag-and-drop document upload, streaming Q&A, and citation/context inspection[cite: 2].</li>
           </ul>
           <div class="flex flex-wrap gap-2 pt-2">
             <span class="px-2.5 py-1 rounded bg-gray-800 text-gray-300 font-mono text-xs">LangChain</span>
@@ -163,6 +244,7 @@
           </div>
         </div>
 
+        <!-- Project 2: Task Management REST API -->
         <div class="p-6 rounded-xl bg-cardDark border border-borderDark hover:border-blue-500/50 transition-all glow-hover space-y-4">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <h3 class="text-xl font-bold text-white">Task Management REST API & AI Service</h3>
@@ -171,11 +253,11 @@
             </a>
           </div>
           <p class="text-gray-300 text-sm leading-relaxed">
-            Production-grade RESTful service handling task workflows with automated dependency-injected sessions, JWT authentication, and natural language AI task parsing via Groq LLaMA.
+            Production-grade RESTful service handling task workflows with automated dependency-injected sessions, JWT authentication, and natural language AI task parsing via Groq LLaMA[cite: 1, 2].
           </p>
           <ul class="text-xs text-gray-400 space-y-1.5 list-disc pl-5">
-            <li>Implemented OAuth2 Password Bearer authentication, Bcrypt password hashing, and token expiration lifecycles.</li>
-            <li>Configured GitHub Actions CI pipeline executing automated Pytest unit and integration suites on each push.</li>
+            <li>Implemented OAuth2 Password Bearer authentication, Bcrypt password hashing, and token expiration lifecycles[cite: 1, 2].</li>
+            <li>Configured GitHub Actions CI pipeline executing automated Pytest unit and integration suites on each push[cite: 1, 2].</li>
           </ul>
           <div class="flex flex-wrap gap-2 pt-2">
             <span class="px-2.5 py-1 rounded bg-gray-800 text-gray-300 font-mono text-xs">Python</span>
@@ -186,6 +268,7 @@
           </div>
         </div>
 
+        <!-- Project 3: Autonomous AI Task Agent -->
         <div class="p-6 rounded-xl bg-cardDark border border-borderDark hover:border-blue-500/50 transition-all glow-hover space-y-4">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <h3 class="text-xl font-bold text-white">Autonomous AI Task Agent</h3>
@@ -194,11 +277,11 @@
             </a>
           </div>
           <p class="text-gray-300 text-sm leading-relaxed">
-            Autonomous decision-making agent implementing the ReAct (Reason + Act) loop pattern to parse complex user intents, orchestrate action plans, and invoke native function calls against external REST APIs.
+            Autonomous decision-making agent implementing the ReAct (Reason + Act) loop pattern to parse complex user intents, orchestrate action plans, and invoke native function calls against external REST APIs[cite: 1].
           </p>
           <ul class="text-xs text-gray-400 space-y-1.5 list-disc pl-5">
-            <li>Engineered native LLM tool-calling capabilities to execute live authenticated HTTP requests autonomously.</li>
-            <li>Implemented state management guardrails including recursion limits and execution trace persistence in PostgreSQL.</li>
+            <li>Engineered native LLM tool-calling capabilities to execute live authenticated HTTP requests autonomously[cite: 1].</li>
+            <li>Implemented state management guardrails including recursion limits and execution trace persistence in PostgreSQL[cite: 1].</li>
           </ul>
           <div class="flex flex-wrap gap-2 pt-2">
             <span class="px-2.5 py-1 rounded bg-gray-800 text-gray-300 font-mono text-xs">ReAct Loop</span>
@@ -211,58 +294,7 @@
       </div>
     </section>
 
-    <section id="experience" class="space-y-6">
-      <div class="flex items-center gap-3">
-        <h2 class="text-2xl font-bold text-white tracking-tight">Work Experience</h2>
-        <div class="h-[1px] flex-1 bg-borderDark"></div>
-      </div>
-
-      <div class="border-l-2 border-borderDark pl-6 ml-3 space-y-6">
-        <div class="relative group">
-          <div class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-blue-500 ring-4 ring-bgDark"></div>
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between text-sm">
-            <div class="font-bold text-white text-base">Data Programmer</div>
-            <div class="text-gray-400 font-mono text-xs">Aug 2025 – Present</div>
-          </div>
-          <div class="text-blue-400 text-sm font-medium mb-2">Labcorp • Bengaluru, India</div>
-          <ul class="text-sm text-gray-300 space-y-2 list-disc pl-4 leading-relaxed">
-            <li>Engineered and optimized 100+ production ETL transformation packages using SQL and Informatica IICS to process clinical datasets up to 1.5M+ records.</li>
-            <li>Executed multi-table SQL queries, complex schema transformations, and strict data validation checks across regulated healthcare environments.</li>
-            <li>Debugged pipeline anomalies, source-generation failures, and format mismatches (CSV, DAT, JSON, SAS), cutting downstream errors and manual interventions by ~30%.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="p-6 rounded-xl bg-cardDark border border-borderDark space-y-3">
-        <div class="flex items-center gap-2 text-white font-bold text-base">
-          <i data-lucide="graduation-cap" class="w-5 h-5 text-blue-400"></i> Education
-        </div>
-        <div>
-          <div class="font-medium text-white text-sm">B.E. in Artificial Intelligence & Machine Learning</div>
-          <div class="text-gray-400 text-xs mt-1">Dayananda Sagar Academy of Technology and Management</div>
-          <div class="text-blue-400 font-mono text-xs mt-1">2021 – 2025 • CGPA: 8.6/10</div>
-        </div>
-      </div>
-
-      <div class="p-6 rounded-xl bg-cardDark border border-borderDark space-y-3">
-        <div class="flex items-center gap-2 text-white font-bold text-base">
-          <i data-lucide="award" class="w-5 h-5 text-purple-400"></i> Certifications
-        </div>
-        <ul class="text-xs space-y-2 text-gray-300 font-mono">
-          <li class="flex items-center gap-2">
-            <span class="w-1.5 h-1.5 rounded-full bg-purple-400"></span>
-            Databricks Fundamentals (Mar 2026)
-          </li>
-          <li class="flex items-center gap-2">
-            <span class="w-1.5 h-1.5 rounded-full bg-purple-400"></span>
-            Career Essentials in Generative AI (Microsoft & LinkedIn)
-          </li>
-        </ul>
-      </div>
-    </section>
-
+    <!-- Contact Footer -->
     <footer id="contact" class="pt-12 border-t border-borderDark text-center space-y-4">
       <h3 class="text-xl font-bold text-white">Let's Connect</h3>
       <p class="text-gray-400 text-sm max-w-md mx-auto">
@@ -277,14 +309,13 @@
         </a>
       </div>
       <div class="text-xs text-gray-500 pt-8 font-mono">
-        © 2026 Aniruddha S P • Hosted free on GitHub Pages
+        © 2026 Aniruddha S P • Hosted on GitHub Pages
       </div>
     </footer>
 
   </main>
 
   <script>
-    // Initialize Lucide icons
     lucide.createIcons();
   </script>
 </body>
